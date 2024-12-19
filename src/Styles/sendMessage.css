@@ -1,0 +1,110 @@
+/* Container styling */
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #002b47; /* Deep blue background */
+  color: #fff;
+  padding: 20px;
+}
+
+.contact-form-container h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.contact-form-container h1 span {
+  color: #00c6ff; /* Highlighted "Me!" */
+}
+
+/* Form styling */
+form {
+  display: grid;
+  grid-template-areas:
+    "name mail"
+    "subject subject"
+    "message message"
+    "button button";
+  gap: 15px;
+  max-width: 600px;
+  width: 100%;
+}
+
+form input,
+form textarea {
+  padding: 15px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #003f64;
+  border: 2px solid #00c6ff;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+form input:hover,
+form textarea:hover {
+  background-color: #00507d;
+  transform: scale(1.02);
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #00ffea;
+  box-shadow: 0 0 10px #00ffea;
+}
+
+form textarea {
+  grid-area: message;
+  resize: none;
+  height: 300px;
+}
+
+form input[name="name"] {
+  grid-area: name;
+}
+
+form input[name="mail"] {
+  grid-area: mail;
+}
+
+form input[name="subject"] {
+  grid-area: subject;
+}
+
+/* Button styling */
+form button {
+  grid-area: button;
+  padding: 15px 30px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #00c6ff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background-color: #008fb3;
+  transform: translateY(-2px);
+}
+
+form button:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  form {
+    grid-template-areas:
+      "name"
+      "mail"
+      "subject"
+      "message"
+      "button";
+  }
+}

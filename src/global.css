@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF UI Text', sans-serif;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    overflow-x: hidden;
+    /* background-color: rgba(19, 17, 17, 0.89); */
+}
+
+.main-screen{
+    width: 100vw;
+    height: 100vh;
+    /* text-align: center; */
+    /* place-content: center; */
+    /* font-size: 100px; */
+    /* color: #FFF; */
+    /* position: relative; */
+    /* position: relative; */
+    /* z-index: -23; */
+}
+
+.main-screen-1,.main-screen-3, .main-screen-5{
+    background-color: rgba(19, 17, 17);
+}
+.main-screen-2, .main-screen-4{
+    background-color: rgba(167, 172, 160, 0.76);
+}
+
+.main-screen-4{
+    height: auto;
+}
+
+#mouse-coursor{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 0;
+    z-index: 345;
+    background-color: rgba(255, 255, 0, 0.596);
+    border: 1px solid rgba(255, 255, 0, 0.103);
+    /* transition: .1s; */
+    pointer-events: none;
+}
+
+
+@media (max-width:1200px) {
+    #mouse-coursor{
+        display: none;
+    }
+}

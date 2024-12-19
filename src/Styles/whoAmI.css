@@ -1,0 +1,114 @@
+.main-screen-1{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 30px; */
+    padding: 10px;
+}
+
+.main-screen-1-profile-details-wrapper{
+    height: auto;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 40px;
+    /* background-color: yellow; */
+}
+
+.main-screen-1-profile-h1-greet{
+    color: #c8d3c3;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.main-screen-1-profile-h1-name-intro{
+    color: #FFF;
+    color: #c8d3c3;
+    font-weight: 900;
+}
+
+.main-screen-1-h1-name-1{
+    color: #84e963;
+}
+.main-screen-1-h1-name-2{
+    font-size: 40px;
+    color: #9dff00;
+    font-family: "Cedarville Cursive", serif;
+}
+
+.main-screen-1-profile-quote{
+    color: gray;
+    
+}
+
+.main-screen-1-profile-3d-image{
+    max-height: 45%;
+    display: flex;
+    justify-content: center;
+    /* background-color: blue; */
+}
+
+.main-screen-1-profile-3d-image picture img {
+    height: 100%;
+    animation-name: image-vertical;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes image-horizontal {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes image-vertical {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+
+@media (min-width:1200px) {
+    .main-screen-1{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+        padding: 100px;
+    }
+    .main-screen-1-profile-3d-image{
+        height: auto;
+    }
+
+    .main-screen-1-profile-3d-image picture img {
+        animation-name: image-horizontal;
+    }
+    .main-screen-1-profile-h1-name-intro{
+        font-size: 60px;
+    }
+    .main-screen-1-h1-name-2{
+        font-size: 70px;
+    }
+    #mouse-coursor{
+        display: block;
+    }
+    .main-screen-1-profile-quote{
+        font-size: 20px;
+    }
+}
