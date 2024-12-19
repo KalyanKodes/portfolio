@@ -14,7 +14,7 @@ export default function SelfLearning() {
           <img src="./Assests/project-2.png" alt="" />
           <h1>Ecommerce Product Landing Page</h1>
         </a>
-        <a href="https://kalyankodes.github.io/fm-ecommerce-product-landing-page/" className='project-3 project'>
+        <a href="https://kalyankodes.github.io/Food-Order/" className='project-3 project'>
           <img src="./Assests/project-3.png" alt="" />
           <h1>Food Order</h1>
         </a>
