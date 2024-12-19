@@ -14,16 +14,16 @@ export default function SelfLearning() {
           <img src="./Assests/project-2.png" alt="" />
           <h1>Ecommerce Product Landing Page</h1>
         </a>
-        <a href="https://kalyankodes.github.io/Food-Order/" className='project-3 project'>
+        <a href="https://kalyankodes.github.io/Food-Order/" className='project-3 project' target='_blank'>
           <img src="./Assests/project-3.png" alt="" />
           <h1>Food Order</h1>
         </a>
 
-        <a href="https://kalyankodes.github.io/React.js-Todo/" className='project-4 project'>
+        <a href="https://kalyankodes.github.io/React.js-Todo/" className='project-4 project' target='_blank'>
           <img src="./Assests/project-4.png" alt="" />
           <h1>ToDo</h1>
         </a>
-        <a href="https://kalyankodes.github.io/multistep-form/" className='project-5 project'>
+        <a href="https://kalyankodes.github.io/multistep-form/" className='project-5 project' target='_blank'>
           <img src="./Assests/project-5.png" alt="" />
           <h1>Multi Step Form</h1>
         </a>
