@@ -1,6 +1,6 @@
 {
   "name": "final-portfolio",
-  "homepage": "https://KalyanKodes/github.io/portfolio",
+  "homepage": "https://KalyanKodes.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,17 +10,17 @@
     "@fortawesome/free-regular-svg-icons": "^6.7.2",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "avj": "^0.0.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^14.6.1",
+    "ajv": "^8.17.1",
     "gh-pages": "^6.3.0",
     "lottie-react": "^2.4.1",
-    "react": "^19.0.0",
+    "react": "^18.3.1",
     "react-alice-carousel": "^2.9.1",
-    "react-dom": "^19.0.0",
+    "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^4.2.4"
   },
   "scripts": {
     "predeploy": "npm run build",

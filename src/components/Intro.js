@@ -52,7 +52,7 @@ const About = () => {
                             <FontAwesomeIcon icon={faUser} />
                         </button>
                     </a>
-                    <a href="" className='get-resume-button' style={{ textDecoration: "none" }}>
+                    <a href="#" className='get-resume-button' style={{ textDecoration: "none" }}>
                         <button>
                             GET RESUME
                             <FontAwesomeIcon icon={faArrowRight} />
@@ -161,7 +161,7 @@ const About = () => {
                     </code>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
