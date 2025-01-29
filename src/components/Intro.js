@@ -52,7 +52,7 @@ const About = () => {
                             <FontAwesomeIcon icon={faUser} />
                         </button>
                     </a>
-                    <a href="#" className='get-resume-button' style={{ textDecoration: "none" }}>
+                    <a href="https://drive.google.com/file/d/1jfE7eVw44iD7d6XWaJn5v2HViUKISlxB/view?usp=sharing" className='get-resume-button' style={{ textDecoration: "none" }}>
                         <button>
                             GET RESUME
                             <FontAwesomeIcon icon={faArrowRight} />
