@@ -1,0 +1,79 @@
+.education-hero{
+    max-width: var(--primary-width);
+    background-image: url("../Asests/hero.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    padding-top: 50px;
+    gap: 50px;
+    margin:  auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #312e8159;
+
+}
+
+.education-card-title{
+    text-align: center;
+    margin-bottom: 15px;
+    color: #1FC3A5;
+}
+
+
+
+
+
+.education-bottom-card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+    
+}
+
+.education-card{    
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #312E81;
+    gap: 15px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.animation-wrapper{
+    margin: auto;
+    max-width: 550px;
+}
+.education-card-details{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-left: 10px;
+    justify-content: flex-start;
+}
+
+
+
+.education-card-degree-details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #FFF;
+}
+
+
+@media (min-width: 1200px){
+    .education-bottom-card{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .animation-wrapper{
+        margin: 0;
+    }
+    .education-card{
+        width: 600px;
+    }
+}
