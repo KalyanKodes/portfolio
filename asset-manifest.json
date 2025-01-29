@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/github.io/portfolio/static/css/main.63d9cd8c.css",
+    "main.js": "/github.io/portfolio/static/js/main.416e6665.js",
+    "static/media/hero.png": "/github.io/portfolio/static/media/hero.43cdc5f9a37114849d7a.png",
+    "static/media/passport.jpg": "/github.io/portfolio/static/media/passport.e667d5e29c915642e985.jpg",
+    "static/media/react.svg": "/github.io/portfolio/static/media/react.2b6a071759fcdac074f4dcad26eef347.svg",
+    "static/media/bootstrap.svg": "/github.io/portfolio/static/media/bootstrap.737b3c849fc48cf99f4dfb73bcd901a6.svg",
+    "static/media/git.svg": "/github.io/portfolio/static/media/git.a0b8447eefa4cd939642f1017ee1c962.svg",
+    "static/media/javascript.svg": "/github.io/portfolio/static/media/javascript.e9360603cdd412c8f9acb925313bc3f3.svg",
+    "index.html": "/github.io/portfolio/index.html",
+    "static/media/tailwindcss.svg": "/github.io/portfolio/static/media/tailwindcss.e1ce9c25cf9a3057b599e1488dc0ad0d.svg",
+    "static/media/html.svg": "/github.io/portfolio/static/media/html.4a671be7516e9415f1e8bf81e6df4c0a.svg",
+    "static/media/css3.svg": "/github.io/portfolio/static/media/css3.8fe37b3430423bafeedb1dc7875a165a.svg",
+    "static/media/education-user-icon.svg": "/github.io/portfolio/static/media/education-user-icon.9d99dbb21e69ec417bf97378ec946eed.svg",
+    "main.63d9cd8c.css.map": "/github.io/portfolio/static/css/main.63d9cd8c.css.map",
+    "main.416e6665.js.map": "/github.io/portfolio/static/js/main.416e6665.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63d9cd8c.css",
+    "static/js/main.416e6665.js"
+  ]
+}
