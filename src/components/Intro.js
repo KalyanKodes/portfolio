@@ -170,7 +170,7 @@ const WhoAmI = () => {
         <div className='intro-whoAmI'>
             <div className='intro-whoAmI-left'>
                 <h2>WHO I AM?</h2>
-                <p>I am a final-year Computer Science student at Gitam University with a profound love for front-end web development. Throughout my academic journey, I have passionately explored this field, undertaking various self-directed projects that showcase my creativity and dedication. Currently, I am delving deeper into React.js, driven by my enthusiasm to craft dynamic and engaging user experiences. Additionally, I have earned certifications that validate my skills and further fuel my passion for web development. My unwavering commitment to learning and innovation underscores my aspiration to excel in this ever-evolving domain.</p>
+                <p>I’m a Junior Software Developer at <b>Bionivid Technologies</b> in Bengaluru and a Computer Science graduate from Gitam University. While I started with a strong passion for front-end development using HTML, CSS, JavaScript, and React.js, I’m now also working with backend technologies—and really enjoying it. During college, I built several personal projects and earned certifications to sharpen my skills</p>
             </div>
             <div className='intro-whoAmI-right'>
                 <div className='intro-whoAmI-right-image-wrapper'>
