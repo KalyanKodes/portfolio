@@ -1,3 +1,19 @@
+.projects-hero{
+    margin: auto;
+    max-width: var(--primary-width);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    color: var(--primary-text-color);
+    background-image: url("../Asests/hero.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-bottom: 50px;
+    border-bottom: 1px solid  #071ff367;
+    /* background-color: yellow; */
+}
+
 .projects-heading {
     /* position: sticky;
     top: 10px;  */
