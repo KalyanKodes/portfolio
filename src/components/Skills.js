@@ -8,7 +8,10 @@ import js from '../Asests/javascript.svg'
 import react from '../Asests/react.svg';
 import css from '../Asests/css3.svg';
 import bs from '../Asests/bootstrap.svg';
-import ts from '../Asests/tailwindcss.svg';
+import nj from '../Asests/nodejs.svg';
+import ej from '../Asests/electron.svg';
+import ex from '../Asests/express.svg';
+import mq from '../Asests/mysql.svg';
 
 
 const handleDragStart = (e) => e.preventDefault();
@@ -44,8 +47,20 @@ const items = [
         <p>HTML</p>
     </div>,
     <div className='skillCard'>
-        <img src={ts} onDragStart={handleDragStart} role="presentation" className='carousel-image' />
-        <p>TailWind</p>
+        <img src={nj} onDragStart={handleDragStart} role="presentation" className='carousel-image' />
+        <p>Node.js</p>
+    </div>,
+    <div className='skillCard'>
+        <img src={ej} onDragStart={handleDragStart} role="presentation" className='carousel-image' />
+        <p>Electron</p>
+    </div>,
+    <div className='skillCard'>
+        <img src={ex} onDragStart={handleDragStart} role="presentation" className='carousel-image' />
+        <p>Express</p>
+    </div>,
+    <div className='skillCard'>
+        <img src={mq} onDragStart={handleDragStart} role="presentation" className='carousel-image' />
+        <p>MySQL</p>
     </div>,
 ];
 export default function Skills() {

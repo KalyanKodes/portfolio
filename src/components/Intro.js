@@ -17,7 +17,7 @@ const Header = () => {
             <ul className='intro-header-ul'>
                 <li><a style={anchorStyles} href="#about">ABOUT</a></li>
                 <li><a style={anchorStyles} href="#skills">SKILLS</a></li>
-                <li><a style={anchorStyles} href="#projects">PROJECTS</a></li>
+                <li><a style={anchorStyles} href="#journey">JOURNEY</a></li>
                 <li><a style={anchorStyles} href="#education">EDUCATION</a></li>
                 <li><a style={anchorStyles} href="#contact">CONTACT</a></li>
             </ul>
@@ -34,7 +34,7 @@ const About = () => {
                 <div className='intro-about-left-1'>
                     <h1>Hello,</h1>
                     <h1>This is <span style={{ color: "var(--highlight-text-color)" }}>Kalyan Kumar</span>,</h1>
-                    <h1>I'm a <span style={{ color: "var(--secondary-text-color)" }}>Frontend Web Developer</span>.</h1>
+                    <h1>I'm a <span style={{ color: "var(--secondary-text-color)" }}>Software Developer</span>.</h1>
                 </div>
 
                 <div className='intro-about-left-2'>
@@ -52,12 +52,12 @@ const About = () => {
                             <FontAwesomeIcon icon={faUser} />
                         </button>
                     </a>
-                    <a href="https://drive.google.com/file/d/1jfE7eVw44iD7d6XWaJn5v2HViUKISlxB/view?usp=sharing" className='get-resume-button' style={{ textDecoration: "none" }}>
+                    {/* <a href="https://drive.google.com/file/d/1jfE7eVw44iD7d6XWaJn5v2HViUKISlxB/view?usp=sharing" className='get-resume-button' style={{ textDecoration: "none" }}>
                         <button>
                             GET RESUME
                             <FontAwesomeIcon icon={faArrowRight} />
                         </button>
-                    </a>
+                    </a> */}
                 </div>
 
 
@@ -86,74 +86,90 @@ const About = () => {
                             skills:
                             <span>
                                 <span style={{ color: 'var(--highlight-text-color)' }}>{"['"}</span>
-                                <span className='primary-highlight-tag'>HTML</span>
+                                <span className='primary-highlight-tag'>Bootstrap</span>
                                 <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
                             </span><pre>, </pre>
+
                             <span>
                                 <span style={{ color: 'var(--highlight-text-color)' }}> '</span>
                                 <span className='primary-highlight-tag'>CSS</span>
                                 <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
                             </span><pre>, </pre>
+
                             <span>
                                 <span style={{ color: 'var(--highlight-text-color)' }}> '</span>
-                                <span className='primary-highlight-tag'>Bootstrap</span>
+                                <span className='primary-highlight-tag'>Electron</span>
                                 <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
                             </span><pre>, </pre>
+
                             <span>
                                 <span style={{ color: 'var(--highlight-text-color)' }}> '</span>
-                                <span className='primary-highlight-tag'>JavaScript</span>
+                                <span className='primary-highlight-tag'>Express</span>
                                 <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
                             </span><pre>, </pre>
-                            <span>
-                                <span style={{ color: 'var(--highlight-text-color)' }}> '</span>
-                                <span className='primary-highlight-tag'>React.js</span>
-                                <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
-                            </span><pre>, </pre>
-                            <span>
-                                <span style={{ color: 'var(--highlight-text-color)' }}> '</span>
-                                <span className='primary-highlight-tag'>Redux-Toolkit</span>
-                                <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
-                            </span><pre>, </pre>
+
                             <span>
                                 <span style={{ color: 'var(--highlight-text-color)' }}> '</span>
                                 <span className='primary-highlight-tag'>Git</span>
                                 <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
                             </span><pre>, </pre>
+
+                            <span>
+                                <span style={{ color: 'var(--highlight-text-color)' }}> '</span>
+                                <span className='primary-highlight-tag'>HTML</span>
+                                <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
+                            </span><pre>, </pre>
+
+                            <span>
+                                <span style={{ color: 'var(--highlight-text-color)' }}> '</span>
+                                <span className='primary-highlight-tag'>JavaScript</span>
+                                <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
+                            </span><pre>, </pre>
+
+                            <span>
+                                <span style={{ color: 'var(--highlight-text-color)' }}> '</span>
+                                <span className='primary-highlight-tag'>MySQL</span>
+                                <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
+                            </span><pre>, </pre>
+
+                            <span>
+                                <span style={{ color: 'var(--highlight-text-color)' }}> '</span>
+                                <span className='primary-highlight-tag'>Node.js</span>
+                                <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
+                            </span><pre>, </pre>
+
                             <span>
                                 <span style={{ color: 'var(--highlight-text-color)' }}> '</span>
                                 <span className='primary-highlight-tag'>Object Oriented Programming</span>
+                                <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
+                            </span><pre>, </pre>
+
+                            <span>
+                                <span style={{ color: 'var(--highlight-text-color)' }}> '</span>
+                                <span className='primary-highlight-tag'>React.js</span>
+                                <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
+                            </span><pre>, </pre>
+
+                            <span>
+                                <span style={{ color: 'var(--highlight-text-color)' }}> '</span>
+                                <span className='primary-highlight-tag'>Redux-Toolkit</span>
                                 <span style={{ color: 'var(--highlight-text-color)' }}>{"']"}</span>
                             </span>,
                         </div>
                         <div className="intro-about-right-details-4 intro-about-right-details-element">
-                            hardWorker: <span style={{ color: "var(--code-highlight-2)" }}>true</span>,
+                            websites: <span style={{ color: "var(--code-highlight-2)" }}>true</span>,
                         </div>
                         <div className="intro-about-right-details-5 intro-about-right-details-element">
-                            quickLearner: <span style={{ color: "var(--code-highlight-2)" }}>true</span>,
+                            desktopApplications: <span style={{ color: "var(--code-highlight-2)" }}>true</span>,
                         </div>
                         <div className="intro-about-right-details-6 intro-about-right-details-element">
-                            problemSolver: <span style={{ color: "var(--code-highlight-2)" }}>true</span>,
+                            mobileApplications: <span style={{ color: "var(--code-highlight-2)" }}>"COMING SOON"</span>,
                         </div>
-                        <div className="intro-about-right-details-7 intro-about-right-details-element">
-                            <span style={{ color: "var(--code-highlight-4)" }}>hireable:</span> <span style={{ color: "var(--code-highlight-2)" }}>function() {"{"}</span>
+                        <div className="intro-about-right-details-5 intro-about-right-details-element">
+                            currentStatus: <span style={{ color: "var(--code-highlight-2)" }}>"Software Developer @ Bionivid Technology Private Limited"</span>,
                         </div>
-                        <div className="intro-about-right-details-8 intro-about-right-details-element">
-                            <span style={{ color: "var(--code-highlight-2)" }}>return</span> <span style={{ color: 'var(--highlight-text-color)' }}>(</span>
-                        </div>
-                        <div className="intro-about-right-details-9 intro-about-right-details-element">
-                            <span style={{ color: 'var(--code-highlight-3)' }}>this.</span>hardWorker <span style={{ color: 'var(--code-highlight-1)' }}>&&</span>
-                        </div>
-                        <div className="intro-about-right-details-10 intro-about-right-details-element">
-                            <span style={{ color: 'var(--code-highlight-3)' }}>this.</span>problemSolver <span style={{ color: 'var(--code-highlight-1)' }}>&&</span>
-                        </div>
-                        <div className="intro-about-right-details-11 intro-about-right-details-element">
-                            <span style={{ color: 'var(--code-highlight-3)' }}>this.</span>skills.length <span style={{ color: 'var(--code-highlight-1)' }}>{">="} 5</span>
-                        </div>
-                        <div className="intro-about-right-details-12 intro-about-right-details-element">
-                            <span style={{ color: 'var(--highlight-text-color)' }}>);</span>
-                        </div>
-                        <div className="intro-about-right-details-13 intro-about-right-details-element">
-                            <span style={{ color: 'var(--highlight-text-color)' }}>{"};"}</span>
+                        <div className="intro-about-right-details-5 intro-about-right-details-element">
+                            experience: <span style={{ color: "var(--code-highlight-2)" }}>"1+ Year"</span>,
                         </div>
                         <div className="intro-about-right-details-14 intro-about-right-details-element">
                             <span style={{ color: 'var(--highlight-text-color)' }}>{"};"}</span>
@@ -170,7 +186,9 @@ const WhoAmI = () => {
         <div className='intro-whoAmI'>
             <div className='intro-whoAmI-left'>
                 <h2>WHO I AM?</h2>
-                <p>I’m a Junior Software Developer at <b>Bionivid Technologies</b> in Bengaluru and a Computer Science graduate from Gitam University. While I started with a strong passion for front-end development using HTML, CSS, JavaScript, and React.js, I’m now also working with backend technologies—and really enjoying it. During college, I built several personal projects and earned certifications to sharpen my skills</p>
+                <p>
+                    I’m a Software Developer with around 1+ year of professional experience. I graduated in Computer Science from GITAM University. Over the past year, I’ve worked on both full-stack web applications and desktop applications, gaining hands-on experience across the development stack. I started with a strong interest in front-end development using HTML, CSS, JavaScript, and React.js, and later expanded into backend technologies. I enjoy building complete applications, solving real-world problems through code, and continuously improving my development skills.
+                </p>
             </div>
             <div className='intro-whoAmI-right'>
                 <div className='intro-whoAmI-right-image-wrapper'>

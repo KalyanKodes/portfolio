@@ -1,26 +1,10 @@
-.projects-hero{
-    margin: auto;
-    max-width: var(--primary-width);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    color: var(--primary-text-color);
-    background-image: url("../Asests/hero.png");
-    background-repeat: no-repeat;
-    background-position: top;
-    padding-bottom: 50px;
-    border-bottom: 1px solid  #071ff367;
-
-}
-
 .projects-heading {
-    position: sticky;
-    top: 10px; 
+    /* position: sticky;
+    top: 10px;  */
     padding: 14px 20px;
     background-color: var(--section-heading-bg-color);
     box-shadow: 0px 0px 200px #ffffff4b;
-    z-index: 10;
+    /* z-index: 10; */
 }
 
 
@@ -33,7 +17,7 @@
 .project-card{
     position: sticky;
     top: 70px;
-    max-width: 600px;
+    width: 100%;
 }
 
 .project-title-card-colors{
@@ -56,4 +40,91 @@
     }
 }
 
+
+
+.experience-card {
+  display: flex;
+  gap: 20px;
+  padding: 24px;
+  border-radius: 14px;
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  transition: transform 0.25s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-4px);
+}
+
+.company-logo {
+  width: 300px;
+  height: auto;
+  object-fit: contain;
+}
+
+.role {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.company {
+  color: #38bdf8;
+  margin-top: 4px;
+}
+
+.duration {
+  font-size: 14px;
+  color: #94a3b8;
+  margin-top: 4px;
+}
+
+.description {
+  margin-top: 10px;
+  color: #cbd5f5;
+  line-height: 1.5;
+}
+
+.tech-stack {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tech-stack span {
+  background: #1e293b;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  color: #38bdf8;
+}
+
+
+
+.experience-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.company-logo {
+  width: 300px;
+  height: auto;
+  object-fit: contain;
+  margin-right: 3em;
+}
+
+/* Stack on small screens */
+@media (max-width: 600px) {
+  .experience-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .company-logo {
+    width: 200px;
+    margin-right: 0;
+  }
+}
 

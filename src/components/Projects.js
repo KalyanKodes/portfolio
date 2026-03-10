@@ -1,6 +1,6 @@
 import React from 'react'
 import "../Styles/projects.css"
-
+import j1 from "../Asests/journy_1.svg"
 
 
 const Tool = ({ index, toolName, numberOfTools }) => {
@@ -65,37 +65,27 @@ const Project = ({ projectTitle, number, role, toolsUsed, description }) => {
 export default function Projects() {
     return (
         <>
-            <div className='projects-hero' id='projects'>
+            <div className='projects-hero' id='journey'>
                 <div className='projects-heading'>
-                    PROJECTS
+                    JOURNEY
                 </div>
 
-                <Project
-                    projectTitle={"Local Business MarketPlace"}
-                    number={1}
-                    toolsUsed={["BootStrap", "React.js", "Redux-ToolKit", "Visual Studio Code", "Figma", "Express.js", "Node.js", "Lottie", "MongoDB", "PostMan"]}
-                    role={"Frontend Developer and support backend in need"}
-                    description={"Developed a web application aimed at supporting small businesses by connecting them with local customers. Conducted requirement gathering to understand the challenges faced by small businesses. Developed a user-friendly and responsive interface using React.js for seamless navigation. Utilized stage-management to handle user interactions and ensure a smooth user experience."}
-                />
-                <Project
-                    projectTitle={"Faculty Recritment website"}
-                    number={2}
-                    toolsUsed={["HTML", "CSS", "JavaScript", "Java", "SPA", "PostMan"]}
-                    role={"Frontend Developer"}
-                    description={"A simple web application that connects faculties seeking job opportunities with colleges looking to hire. Faculties can create profiles showcasing their expertise, while colleges can browse and reach out to suitable candidates. Built using HTML, CSS, JavaScript for the frontend and Java & SPA (Single Page Application) for the backend, ensuring seamless navigation and interaction. This platform simplifies the hiring process by providing an efficient way for institutions to discover qualified educators."}
-                />
-                <Project
-                    projectTitle={"Spotify Clone"}
-                    number={3}
-                    toolsUsed={["CSS", "React.js", "Context-API", "Spotify-web-API", "Mobile-simulator-chrome-extention"]}
-                    role={"Frontend Developer"}
-                    description={"Developed a fully functional music streaming application that allows users to search for songs, playlists, albums, and artists. Integrated Spotify web API to fetch real-time music data. Enhanced skills in React.js including modular design and state management for complex workflows."}
-                />
-                <Project
-                    projectTitle={"Ecommerce Landing Page"}
-                    number={4} toolsUsed={["React.js", "CSS", "Redux-ToolKit", "Python", "MySQL", "BootStrap"]}
-                    description={"A simple e-commerce web application built with React.js for the frontend, using Redux for state management. It allows users to browse products and add them to the cart. The backend is developed with Python and MySQL to store and manage product and cart data. This project demonstrates efficient state handling with Redux while integrating a database for persistent storage."}
-                />
+                <div className="experience-card">
+                    <div className="experience-left">
+                        <img
+                            src={j1}
+                            alt="Bionivid Technologies"
+                            className="company-logo"
+                        />
+                    </div>
+
+                    <div className="experience-right">
+                        <h3 className="role">Software Developer</h3>
+                        <h4 className="company">Bionivid Technologies</h4>
+
+                        <p className="duration">2025 — Present</p>
+                    </div>
+                </div>
             </div>
         </>
     )
