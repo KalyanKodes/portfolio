@@ -52,12 +52,12 @@ const About = () => {
                             <FontAwesomeIcon icon={faUser} />
                         </button>
                     </a>
-                    {/* <a href="https://drive.google.com/file/d/1jfE7eVw44iD7d6XWaJn5v2HViUKISlxB/view?usp=sharing" className='get-resume-button' style={{ textDecoration: "none" }}>
+                    <a href="https://drive.google.com/file/d/17hUaXOhIUimJYT07EaqT6L6nSkqWsj_p/view?usp=sharing" target='_blank' className='get-resume-button' style={{ textDecoration: "none" }}>
                         <button>
                             GET RESUME
                             <FontAwesomeIcon icon={faArrowRight} />
                         </button>
-                    </a> */}
+                    </a>
                 </div>
 
 
@@ -73,12 +73,12 @@ const About = () => {
                 <div className='intro-about-rigth-details'>
                     <code>
                         <div className="intro-about-right-details-1 intro-about-right-details-element">
-                            <span style={{ color: 'var(--highlight-text-color)' }}>const </span> coder <span style={{ color: 'var(--highlight-text-color)' }}>= {"{"}</span>
+                            <span style={{ color: 'var(--highlight-text-color)' }}>const </span> person <span style={{ color: 'var(--highlight-text-color)' }}>= {"{"}</span>
                         </div>
                         <div className="intro-about-right-details-2 intro-about-right-details-element">
                             name: <span>
                                 <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
-                                <span className='primary-highlight-tag'>Kalyan</span>
+                                <span className='primary-highlight-tag'>Kalyan Kumar</span>
                                 <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
                             </span> ,
                         </div>
@@ -86,7 +86,7 @@ const About = () => {
                             skills:
                             <span>
                                 <span style={{ color: 'var(--highlight-text-color)' }}>{"['"}</span>
-                                <span className='primary-highlight-tag'>Bootstrap</span>
+                                <span className='primary-highlight-tag'>HTML</span>
                                 <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
                             </span><pre>, </pre>
 
@@ -98,49 +98,7 @@ const About = () => {
 
                             <span>
                                 <span style={{ color: 'var(--highlight-text-color)' }}> '</span>
-                                <span className='primary-highlight-tag'>Electron</span>
-                                <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
-                            </span><pre>, </pre>
-
-                            <span>
-                                <span style={{ color: 'var(--highlight-text-color)' }}> '</span>
-                                <span className='primary-highlight-tag'>Express</span>
-                                <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
-                            </span><pre>, </pre>
-
-                            <span>
-                                <span style={{ color: 'var(--highlight-text-color)' }}> '</span>
-                                <span className='primary-highlight-tag'>Git</span>
-                                <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
-                            </span><pre>, </pre>
-
-                            <span>
-                                <span style={{ color: 'var(--highlight-text-color)' }}> '</span>
-                                <span className='primary-highlight-tag'>HTML</span>
-                                <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
-                            </span><pre>, </pre>
-
-                            <span>
-                                <span style={{ color: 'var(--highlight-text-color)' }}> '</span>
                                 <span className='primary-highlight-tag'>JavaScript</span>
-                                <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
-                            </span><pre>, </pre>
-
-                            <span>
-                                <span style={{ color: 'var(--highlight-text-color)' }}> '</span>
-                                <span className='primary-highlight-tag'>MySQL</span>
-                                <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
-                            </span><pre>, </pre>
-
-                            <span>
-                                <span style={{ color: 'var(--highlight-text-color)' }}> '</span>
-                                <span className='primary-highlight-tag'>Node.js</span>
-                                <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
-                            </span><pre>, </pre>
-
-                            <span>
-                                <span style={{ color: 'var(--highlight-text-color)' }}> '</span>
-                                <span className='primary-highlight-tag'>Object Oriented Programming</span>
                                 <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
                             </span><pre>, </pre>
 
@@ -153,23 +111,40 @@ const About = () => {
                             <span>
                                 <span style={{ color: 'var(--highlight-text-color)' }}> '</span>
                                 <span className='primary-highlight-tag'>Redux-Toolkit</span>
+                                <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
+                            </span><pre>, </pre>
+
+                            <span>
+                                <span style={{ color: 'var(--highlight-text-color)' }}> '</span>
+                                <span className='primary-highlight-tag'>Git</span>
+                                <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
+                            </span><pre>, </pre>
+
+                            <span>
+                                <span style={{ color: 'var(--highlight-text-color)' }}> '</span>
+                                <span className='primary-highlight-tag'>Bootstrap</span>
+                                <span style={{ color: 'var(--highlight-text-color)' }}>'</span>
+                            </span><pre>, </pre>
+
+                            <span>
+                                <span style={{ color: 'var(--highlight-text-color)' }}> '</span>
+                                <span className='primary-highlight-tag'>Electron.js</span>
                                 <span style={{ color: 'var(--highlight-text-color)' }}>{"']"}</span>
                             </span>,
+
+                            
                         </div>
                         <div className="intro-about-right-details-4 intro-about-right-details-element">
-                            websites: <span style={{ color: "var(--code-highlight-2)" }}>true</span>,
+                            frontEnd: <span style={{ color: "var(--code-highlight-2)" }}>true</span>,
                         </div>
                         <div className="intro-about-right-details-5 intro-about-right-details-element">
-                            desktopApplications: <span style={{ color: "var(--code-highlight-2)" }}>true</span>,
-                        </div>
-                        <div className="intro-about-right-details-6 intro-about-right-details-element">
-                            mobileApplications: <span style={{ color: "var(--code-highlight-2)" }}>"COMING SOON"</span>,
+                            backend: <span style={{ color: "var(--code-highlight-2)" }}>COMMING SOON</span>,
                         </div>
                         <div className="intro-about-right-details-5 intro-about-right-details-element">
                             currentStatus: <span style={{ color: "var(--code-highlight-2)" }}>"Software Developer @ Bionivid Technology Private Limited"</span>,
                         </div>
                         <div className="intro-about-right-details-5 intro-about-right-details-element">
-                            experience: <span style={{ color: "var(--code-highlight-2)" }}>"1+ Year"</span>,
+                            experience: <span style={{ color: "var(--code-highlight-2)" }}>"1.5+ Years"</span>,
                         </div>
                         <div className="intro-about-right-details-14 intro-about-right-details-element">
                             <span style={{ color: 'var(--highlight-text-color)' }}>{"};"}</span>
@@ -187,7 +162,7 @@ const WhoAmI = () => {
             <div className='intro-whoAmI-left'>
                 <h2>WHO I AM?</h2>
                 <p>
-                    I’m a Software Developer with around 1+ year of professional experience. I graduated in Computer Science from GITAM University. Over the past year, I’ve worked on both full-stack web applications and desktop applications, gaining hands-on experience across the development stack. I started with a strong interest in front-end development using HTML, CSS, JavaScript, and React.js, and later expanded into backend technologies. I enjoy building complete applications, solving real-world problems through code, and continuously improving my development skills.
+                    I’m a Software Developer with around 1.5 years of professional experience. I graduated in Computer Science from GITAM University in 2025. Over the past 1.5 years, I’ve built and maintained front-end applications for both web and desktop platforms. For web development, I primarily work with React.js, while for desktop applications, I use Electron with React to deliver cross-platform experiences.
                 </p>
             </div>
             <div className='intro-whoAmI-right'>

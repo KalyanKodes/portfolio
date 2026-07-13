@@ -47,20 +47,8 @@ const items = [
         <p>HTML</p>
     </div>,
     <div className='skillCard'>
-        <img src={nj} onDragStart={handleDragStart} role="presentation" className='carousel-image' />
-        <p>Node.js</p>
-    </div>,
-    <div className='skillCard'>
         <img src={ej} onDragStart={handleDragStart} role="presentation" className='carousel-image' />
         <p>Electron</p>
-    </div>,
-    <div className='skillCard'>
-        <img src={ex} onDragStart={handleDragStart} role="presentation" className='carousel-image' />
-        <p>Express</p>
-    </div>,
-    <div className='skillCard'>
-        <img src={mq} onDragStart={handleDragStart} role="presentation" className='carousel-image' />
-        <p>MySQL</p>
     </div>,
 ];
 export default function Skills() {
