@@ -52,7 +52,7 @@ const About = () => {
                             <FontAwesomeIcon icon={faUser} />
                         </button>
                     </a>
-                    <a href="https://drive.google.com/file/d/17hUaXOhIUimJYT07EaqT6L6nSkqWsj_p/view?usp=sharing" target='_blank' className='get-resume-button' style={{ textDecoration: "none" }}>
+                    <a href="https://drive.google.com/file/d/1nFYdf2Y4aXEeXS0lK_ZQdzpU58BgWlKr/view?usp=sharing" target='_blank' className='get-resume-button' style={{ textDecoration: "none" }}>
                         <button>
                             GET RESUME
                             <FontAwesomeIcon icon={faArrowRight} />
