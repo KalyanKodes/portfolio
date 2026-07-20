@@ -12,7 +12,10 @@ import nj from '../Asests/nodejs.svg';
 import ej from '../Asests/electron.svg';
 import ex from '../Asests/express.svg';
 import mq from '../Asests/mysql.svg';
-
+import md from '../Asests/mongodb.svg'
+import ub from '../Asests/ubunto.svg'
+import rd from '../Asests/redux.svg'
+import pm from '../Asests/postman.svg'
 
 const handleDragStart = (e) => e.preventDefault();
 const responsive = {
@@ -49,6 +52,22 @@ const items = [
     <div className='skillCard'>
         <img src={ej} onDragStart={handleDragStart} role="presentation" className='carousel-image' />
         <p>Electron</p>
+    </div>,
+    <div className='skillCard'>
+        <img src={md} onDragStart={handleDragStart} role="presentation" className='carousel-image' />
+        <p>MongoDB</p>
+    </div>,
+    <div className='skillCard'>
+        <img src={ub} onDragStart={handleDragStart} role="presentation" className='carousel-image' />
+        <p>Ubuntu</p>
+    </div>,
+    <div className='skillCard'>
+        <img src={rd} onDragStart={handleDragStart} role="presentation" className='carousel-image' />
+        <p>Redux</p>
+    </div>,
+    <div className='skillCard'>
+        <img src={pm} onDragStart={handleDragStart} role="presentation" className='carousel-image' />
+        <p>Postman</p>
     </div>,
 ];
 export default function Skills() {

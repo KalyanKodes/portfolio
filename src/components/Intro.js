@@ -138,7 +138,7 @@ const About = () => {
                             frontEnd: <span style={{ color: "var(--code-highlight-2)" }}>true</span>,
                         </div>
                         <div className="intro-about-right-details-5 intro-about-right-details-element">
-                            backend: <span style={{ color: "var(--code-highlight-2)" }}>COMMING SOON</span>,
+                            backend: <span style={{ color: "var(--code-highlight-2)" }}>true</span>,
                         </div>
                         <div className="intro-about-right-details-5 intro-about-right-details-element">
                             currentStatus: <span style={{ color: "var(--code-highlight-2)" }}>"Software Developer @ Bionivid Technology Private Limited"</span>,
